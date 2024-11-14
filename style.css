@@ -1,0 +1,32 @@
+body {
+    background-color: pink;
+    color: beige;
+    font-family: "Itim", cursive;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: white;
+    color: palevioletred;
+    font-family: "Itim", cursive;
+}
+
+.passo{
+    display:none;
+}
+.passo.ativo{
+    display:block;
+}
+
+main{
+   text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 80%;
+}
